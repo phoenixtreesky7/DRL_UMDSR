@@ -11,11 +11,11 @@ The primary advantages of this framework are twofold. First, it is among the fir
 # Training
 
 ```python
-python train.py --name RAA_MarsGAN_mix_dr_unet_cam_ssn --dataroot D:/dzhao/DATASET/Mars/MarsGAN/Mars_mix/ --which_model_netG dr_ca --dh_real --allmodel --batchSize 8 --ngf 32 --norm sswitch --gpu_ids 0,1
-
+python train.py --name [xxx1] --dataroot [xxx2] --which_model_netG dr_ca --dh_real --allmodel --batchSize 8 --ngf 32 --norm sswitch --gpu_ids 0,1
+```
 
 # Testing
 
 ```python
-python test.py --name RAA_MarsGAN_mix_dr_unet_cam_ssn --dataroot D:/dzhao/DATASET/Mars/MarsGAN/Mars_mix/test/ --which_model_netG dr_ca --dh_real --allmodel --batchSize 1 --ngf 32 --norm sswitch --sb --how_many 1000
-
+python test.py --name [xxx1] --dataroot [xxx2] --which_model_netG dr_ca --dh_real --allmodel --batchSize 1 --ngf 32 --norm sswitch --sb --how_many 1000
+```
