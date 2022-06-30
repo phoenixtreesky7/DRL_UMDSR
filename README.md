@@ -16,6 +16,12 @@ __4__ Peng Cheng Laboratory, Shenzhen 518000, China.
 
 >Mars exploration has become a hot spot in recent years and is still advancing rapidly. However, Mars has massive dust storms that may cover many areas of the planet and last for weeks or even months. The local/global dust storms are so influential that they can significantly reduce visibility, and thereby the images captured by the cameras on the Mars rover are degraded severely. This work presents an unsupervised Martian dust storm removal network via __disentangled representation learning (DRL)__. The core idea of the DRL framework is to use the content encoder and dust storm encoder to disentangle the degraded images into content features (on domain-invariant space) and dust storm features (on domain-specific space). The dust storm features carry the full dust storm-relevant prior knowledge from the dust storm images. The `cleaned' content features can be effectively decoded to generate more natural, faithful, clear images. __The primary advantages of this framework are twofold. First, it is among the first to perform unsupervised training in Martian dust storm removal with a single image, avoiding the synthetic data requirements. Second, the model can implicitly learn the dust storm-relevant prior knowledge from the real-world dust storm datasets, avoiding the design of the complicated handcrafted priors.__ Extensive experiments demonstrate the DRL framework's effectiveness and show the promising performance of our network for Martian dust storm removal.
 
+# Model
+
+![image](https://github.com/phoenixtreesky7/DRL_UMDSR/blob/main/umdsr_motivation.png)
+
+![image](https://github.com/phoenixtreesky7/DRL_UMDSR/blob/main/umdsr_net.png)
+
 
 # Training
 
