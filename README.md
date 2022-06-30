@@ -1,7 +1,7 @@
 
 # Unsupervised Martian Dust Storm Removal via Disentangled Representation Learning
 
-Dong Zhao 1; Jia Li 1,2,4; Hongyu Li 1; Long Xu 3,4
+Dong Zhao __1__; Jia Li __1,2,4__; Hongyu Li __1__; Long Xu __3,4__
 
 __1__ State Key Laboratory of Virtual Reality Technology and Systems, School of Computer Science and Engineering, Beihang University, Beijing 100191, China; 
 
@@ -20,11 +20,11 @@ __4__ Peng Cheng Laboratory, Shenzhen 518000, China.
 # Training
 
 ```python
-python train.py --name _your-model-name_ --dataroot _your-data-path_ --which_model_netG dr_ca --dh_real --allmodel --batchSize 8 --ngf 32 --norm sswitch --gpu_ids 0,1
+python train.py --name /your-model-name/ --dataroot /your-data-path/ --which_model_netG dr_ca --dh_real --allmodel --batchSize 8 --ngf 32 --norm sswitch --gpu_ids 0,1
 ```
 
 # Testing
 
 ```python
-python test.py --name _your-model-name_ --dataroot _your-data-path_ --which_model_netG dr_ca --dh_real --allmodel --batchSize 1 --ngf 32 --norm sswitch --sb --how_many 1000
+python test.py --name /your-model-name/ --dataroot /your-data-path/ --which_model_netG dr_ca --dh_real --allmodel --batchSize 1 --ngf 32 --norm sswitch --sb --how_many 1000
 ```
