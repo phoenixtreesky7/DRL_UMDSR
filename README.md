@@ -1,5 +1,4 @@
-# DRL_UMDSR
-=====
+
 # Unsupervised Martian Dust Storm Removal via Disentangled Representation Learning
 
 Dong Zhao 1; Jia Li 1,2,4; Hongyu Li 1; Long Xu 3,4
