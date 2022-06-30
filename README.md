@@ -20,11 +20,11 @@ __4__ Peng Cheng Laboratory, Shenzhen 518000, China.
 # Training
 
 ```python
-python train.py --name _your_model_name_ --dataroot _your_data_path_ --which_model_netG dr_ca --dh_real --allmodel --batchSize 8 --ngf 32 --norm sswitch --gpu_ids 0,1
+python train.py --name _your-model-name_ --dataroot _your-data-path_ --which_model_netG dr_ca --dh_real --allmodel --batchSize 8 --ngf 32 --norm sswitch --gpu_ids 0,1
 ```
 
 # Testing
 
 ```python
-python test.py --name _your_model_name_ --dataroot _your_data_path_ --which_model_netG dr_ca --dh_real --allmodel --batchSize 1 --ngf 32 --norm sswitch --sb --how_many 1000
+python test.py --name _your-model-name_ --dataroot _your-data-path_ --which_model_netG dr_ca --dh_real --allmodel --batchSize 1 --ngf 32 --norm sswitch --sb --how_many 1000
 ```
