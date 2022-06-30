@@ -1,5 +1,16 @@
 # DRL_UMDSR
+=====
 # Unsupervised Martian Dust Storm Removal via Disentangled Representation Learning
+
+Dong Zhao 1; Jia Li 1,2,4; Hongyu Li 1; Long Xu 3,4
+
+__1__ State Key Laboratory of Virtual Reality Technology and Systems, School of Computer Science and Engineering, Beihang University, Beijing 100191, China; 
+
+__2__ Key Laboratory of Solar Activity, National Astronomical Observatories, Chinese Academy of Sciences, Beijing 100101, China;
+
+__3__ National Space Science Center, Chinese Academy of Sciences, Beijing 100190, China;
+
+__4__ Peng Cheng Laboratory, Shenzhen 518000, China.
 
 
 # Abstract 
