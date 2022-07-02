@@ -18,9 +18,9 @@ __4__ Peng Cheng Laboratory, Shenzhen 518000, China.
 
 # Model
 
-![Motivation](https://github.com/phoenixtreesky7/DRL_UMDSR/blob/main/umdsr_motivation.png)
+![Motivation](https://github.com/phoenixtreesky7/DRL_UMDSR/umdsr_motivation.png)
 
-![Network](https://github.com/phoenixtreesky7/DRL_UMDSR/blob/main/umdsr_net.png)
+![Network](https://github.com/phoenixtreesky7/DRL_UMDSR/umdsr_net.png)
 
 
 # Training
